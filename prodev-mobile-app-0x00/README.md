@@ -1,44 +1,50 @@
 # Welcome to your Expo app 👋
 
-1️⃣ Steps Followed for Scaffolding
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Navigated to the project directory:
-cd ~/prodev-mobile-setup/prodev-mobile-app-0x00
+## Get started
 
-Initialized the Expo project using the latest Expo Router template:
-npx create-expo-app@latest .
+1. Install dependencies
 
+   ```bash
+   npm install
+   ```
 
-Opened the home screen app/(tabs)/index.tsx and modified the default text Welcome! to:
-**First App Created**
+2. Start the app
 
-Installed dependencies and started the development server:
-npx expo start
-Opened the app in Expo Go on a physical device by scanning the QR code.
+   ```bash
+   npx expo start
+   ```
 
-2️⃣ Observations from the reset-project Command
-Ran the reset script:
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
 npm run reset-project
-The script asked whether to move existing files to /app-example instead of deleting them. You chose Yes (Y).
+```
 
-Actions performed by the reset:
-Created /app-example directory.
-Moved existing project folders into /app-example:
-/app → /app-example/app
-/components → /app-example/components
-/hooks → /app-example/hooks
-/constants → /app-example/constants
-/scripts → /app-example/scripts
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-Created a new empty /app folder with basic starter files:
-app/index.tsx
-app/_layout.tsx
+## Learn more
 
-After reset, the project is clean:
-You now have a fresh /app directory to start coding.
+To learn more about developing your project with Expo, look at the following resources:
 
-The old files are still available in /app-example for reference.
-Next steps suggested by the script:
-Run npx expo start to start the dev server.
-Edit app/index.tsx to change the main screen.
-Delete /app-example when no longer needed.
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
